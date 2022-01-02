@@ -10,3 +10,6 @@ output of image will be in the same directory as the input source image.
 
 the "waifu2x - ALL.bat" script runs all 3 models with all -1~3 denose leves.
 this should output 15 images, useful for testing which model has best results.
+
+
+https://github.com/w-e-w/bat-script-for-waifu2x-ncnn-vulkan
