@@ -20,7 +20,7 @@ if [%1]==[] (
 echo waifu2x - model %model_type% - denoise level %denoise%
 echo(
 :loop
-start /wait /B %waifu2x% -i %1 -o "%~dpn1 2x_%model_type% .%fomat%" -n %denoise% -m %model%
+start /wait /B %waifu2x% -i %1 -o "%~dpn1 2x_%model_type%_n%denoise%.%fomat%" -n %denoise% -m %model%
 shift
 if not [%1]==[] goto loop
 pause
